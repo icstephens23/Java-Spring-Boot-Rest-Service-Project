@@ -9,16 +9,21 @@ If you would like to run the application through command line the you will use t
     ./mvnw clean spring-boot:run
 
 POST Message(Windows 10):
+
     curl -X POST -H "Content-type:application/json" -d "{\"id\":125, \"message\":\"HELLO\"}" -v http://localhost:8080/messages
 
 GET All Messages(Windows 10):
+
     curl -X GET http://localhost:8080/messages
 
 GET Message By ID(Windows 10):
+
     curl -X GET http://localhost:8080/messages/{id}
 
 DELETE Message By ID(Windows 10):
+
     curl -X DELETE http://localhost:8080/messages/{id}
 
 GET Total Word Count of Messages(Windows 10):
+
     curl -X GET http://localhost:8080/messages/count
