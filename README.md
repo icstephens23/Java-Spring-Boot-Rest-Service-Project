@@ -5,7 +5,9 @@ Before trying to load up the project make sure you have java 8 installed.
 When setting up this project in the IDE of your choice you have to build the project using the pom.xml file so all of the dependancies get installed into the project.
 
 Then run the application. The main java file to run the application with is MessageRestAPIApplication.java
+
 If you would like to run the application through command line the you will use this command:
+    
     ./mvnw clean spring-boot:run
 
 POST Message(Windows 10):
